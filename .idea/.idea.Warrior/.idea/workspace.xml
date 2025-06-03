@@ -13,15 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7e149dcc-cfbf-4546-bb0a-e13c705d4c0f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Warrior/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Warrior/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditor.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultInput.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultInput.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/BP_HeroCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/BP_HeroCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Warrior/Private/Characters/WarriorBaseCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Private/Characters/WarriorBaseCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Warrior/Private/Characters/WarriorHeroCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Private/Characters/WarriorHeroCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Warrior/Public/Characters/WarriorBaseCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Public/Characters/WarriorBaseCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Warrior/Public/Characters/WarriorHeroCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Public/Characters/WarriorHeroCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Warrior/Warrior.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Warrior.Build.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Warrior.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/Warrior.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Warrior/Public/AbilitySystem/Abilities/WarriorGameplayAbility.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Public/AbilitySystem/Abilities/WarriorGameplayAbility.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -491,7 +483,7 @@
       <updated>1748025524952</updated>
       <workItem from="1748025527358" duration="4005000" />
       <workItem from="1748455147446" duration="12662000" />
-      <workItem from="1748961482660" duration="1680000" />
+      <workItem from="1748961482660" duration="2679000" />
     </task>
     <servers />
   </component>
