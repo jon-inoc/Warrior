@@ -13,30 +13,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7e149dcc-cfbf-4546-bb0a-e13c705d4c0f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Warrior/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Warrior/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/AnimBP/ABP_Hero.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/AnimBP/ABP_Hero.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/AnimBP/BlendSpace/BS_UnarmedLocomotion.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/AnimBP/BlendSpace/BS_UnarmedLocomotion.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/BP_HeroCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/BP_HeroCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/DA_InputConfig.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/DA_InputConfig.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/HeroWeapon/BP_HeroAxe.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/HeroWeapon/BP_HeroAxe.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/Input/Actions/IA_Jump.uasset" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/Input/IMC_Default.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/Input/IMC_Default.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Shared/GameplayAbility/GA_Shared_SpawnWeapon.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Shared/GameplayAbility/GA_Shared_SpawnWeapon.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Warrior/Private/AbilitySystem/Abilities/WarriorGameplayAbility.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Private/AbilitySystem/Abilities/WarriorGameplayAbility.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Warrior/Private/AbilitySystem/WarriorAbilitySystemComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Private/AbilitySystem/WarriorAbilitySystemComponent.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Warrior/Private/AnimInstances/Hero/WarriorHeroLinkedAnimLayer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Private/AnimInstances/Hero/WarriorHeroLinkedAnimLayer.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Warrior/Private/Characters/WarriorBaseCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Private/Characters/WarriorBaseCharacter.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Warrior/Private/Characters/WarriorHeroCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Private/Characters/WarriorHeroCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Warrior/Private/WarriorGameplayTags.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Private/WarriorGameplayTags.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Warrior/Public/AbilitySystem/Abilities/WarriorGameplayAbility.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Public/AbilitySystem/Abilities/WarriorGameplayAbility.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Warrior/Public/AbilitySystem/WarriorAbilitySystemComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Public/AbilitySystem/WarriorAbilitySystemComponent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Warrior/Public/AnimInstances/Hero/WarriorHeroAnimInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Public/AnimInstances/Hero/WarriorHeroAnimInstance.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Warrior/Public/AnimInstances/Hero/WarriorHeroLinkedAnimLayer.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Public/AnimInstances/Hero/WarriorHeroLinkedAnimLayer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Warrior/Public/Characters/WarriorBaseCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Public/Characters/WarriorBaseCharacter.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Warrior/Public/Characters/WarriorHeroCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Public/Characters/WarriorHeroCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Warrior/Public/Components/Input/WarriorInputComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Public/Components/Input/WarriorInputComponent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Warrior/Public/DataAssets/Input/DataAsset_InputConfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Public/DataAssets/Input/DataAsset_InputConfig.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Warrior/Public/Items/Weapons/WarriorHeroWeapon.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Public/Items/Weapons/WarriorHeroWeapon.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Warrior/Public/WarriorGameplayTags.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Public/WarriorGameplayTags.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -519,6 +499,15 @@
       <workItem from="1749045059546" duration="3067000" />
       <workItem from="1749064844746" duration="8410000" />
       <workItem from="1749153101593" duration="6510000" />
+      <workItem from="1749231990646" duration="4675000" />
+      <workItem from="1749259087101" duration="2047000" />
+      <workItem from="1749339607354" duration="1452000" />
+      <workItem from="1749495822653" duration="2290000" />
+      <workItem from="1750185122152" duration="9336000" />
+      <workItem from="1750272665754" duration="5029000" />
+      <workItem from="1750337488567" duration="4559000" />
+      <workItem from="1750775082923" duration="3794000" />
+      <workItem from="1753894341324" duration="8583000" />
     </task>
     <servers />
   </component>
@@ -533,12 +522,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Source/Warrior/Public/Characters/WarriorHeroCharacter.h</url>
-          <line>36</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Source/Warrior/Public/AbilitySystem/Abilities/WarriorHeroGameplayAbility.h</url>
+          <url>file://$PROJECT_DIR$/Source/Warrior/Public/AbilitySystem/WarriorAbilitySystemComponent.h</url>
           <line>4</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>

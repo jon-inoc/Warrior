@@ -29,13 +29,16 @@ public:
 	//~ End PawnCombatInterface Interface
 
 protected:
+
+	virtual void BeginPlay() override;
+	virtual void Tick(float DeltaTime) override;
 	//~ Begin APawn Interface.
 	virtual void PossessedBy(AController* NewController) override;
 	//~ End APawn Interface
 	
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-	virtual void BeginPlay() override;
-
+	virtual void NotifyControllerChanged() override;
+	
 private:
 
 #pragma region Components
@@ -64,6 +67,29 @@ private:
 
 #pragma endregion
 
+#pragma region Variables
+
+	bool bUsingMouse = false;
+	float AimAngle = 0.0f;
+	FVector2D LastMoveInput;
+	TObjectPtr<APlayerController> PlayerController;
+	
+	UPROPERTY(EditAnywhere, Category="Input")
+	TEnumAsByte<ETraceTypeQuery> MouseAimTraceChannel;
+	
+#pragma endregion
+
+protected:
+#pragma region Core Functions
+	/** Handles move inputs from both input actions and touch interface */
+	UFUNCTION(BlueprintCallable, Category="Input")
+	void DoMove(float AxisX, float AxisY);
+
+	/** Handles aim inputs from both input actions and touch interface */
+	UFUNCTION(BlueprintCallable, Category="Input")
+	void DoAim(float AxisX, float AxisY);
+#pragma endregion
+	
 public:
 	FORCEINLINE UHeroCombatComponent* GetHeroCombatComponent() const { return HeroCombatComponent;}
 };
