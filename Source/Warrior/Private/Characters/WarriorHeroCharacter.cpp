@@ -171,7 +171,7 @@ void AWarriorHeroCharacter::Input_Move(const FInputActionValue& InputActionValue
 void AWarriorHeroCharacter::Input_Look(const FInputActionValue& InputActionValue)
 {
 	const FVector2D LookAxisVector = InputActionValue.Get<FVector2D>();
-	// get the current rotation
+	/*// get the current rotation
 	const FRotator OldRotation = GetActorRotation();
 
 	// get the cursor world location
@@ -187,7 +187,7 @@ void AWarriorHeroCharacter::Input_Look(const FInputActionValue& InputActionValue
 	// update the yaw, reuse the pitch and roll
 	SetActorRotation(FRotator(OldRotation.Pitch, AimAngle, OldRotation.Roll));
 	
-	/*if (LookAxisVector.X != 0.f)
+	if (LookAxisVector.X != 0.f)
 	{
 		AddControllerYawInput(LookAxisVector.X);
 	}
@@ -196,7 +196,7 @@ void AWarriorHeroCharacter::Input_Look(const FInputActionValue& InputActionValue
 	{
 		AddControllerPitchInput(LookAxisVector.Y);
 	}*/
-	DoAim(LookAxisVector.X, LookAxisVector.Y);
+	//DoAim(LookAxisVector.X, LookAxisVector.Y);
 }
 
 void AWarriorHeroCharacter::Input_AbilityInputPressed(FGameplayTag InInputTag)
@@ -211,7 +211,7 @@ void AWarriorHeroCharacter::Input_AbilityInputReleased(FGameplayTag InInputTag)
 
 void AWarriorHeroCharacter::DoMove(float AxisX, float AxisY)
 {
-	// save the input
+	/*// save the input
 	LastMoveInput.X = AxisX;
 	LastMoveInput.Y = AxisY;
 
@@ -223,7 +223,31 @@ void AWarriorHeroCharacter::DoMove(float AxisX, float AxisY)
 	AddMovementInput(FlatRot.RotateVector(FVector::ForwardVector), -AxisY);
 
 	// apply the right input
-	AddMovementInput(FlatRot.RotateVector(FVector::RightVector), -AxisX);
+	AddMovementInput(FlatRot.RotateVector(FVector::RightVector), -AxisX);*/
+
+	// save the input
+	LastMoveInput.X = AxisX;
+	LastMoveInput.Y = AxisY;
+
+	if (AxisX == 0.0f && AxisY == 0.0f)
+		return; // no input, don't rotate
+
+	// calculate movement direction relative to controller
+	FRotator ControlRot = GetControlRotation();
+	ControlRot.Pitch = 0.0f; // flat on ground
+
+	FVector MoveDir = (ControlRot.RotateVector(FVector::ForwardVector) * -AxisY) +
+					  (ControlRot.RotateVector(FVector::RightVector)   * -AxisX);
+
+	MoveDir.Normalize();
+
+	// apply movement
+	AddMovementInput(MoveDir);
+
+	// rotate character smoothly toward movement direction
+	FRotator TargetRot = MoveDir.Rotation();
+	FRotator NewRot = FMath::RInterpTo(GetActorRotation(), TargetRot, GetWorld()->GetDeltaSeconds(), 10.0f);
+	SetActorRotation(NewRot);
 }
 
 void AWarriorHeroCharacter::DoAim(float AxisX, float AxisY)
