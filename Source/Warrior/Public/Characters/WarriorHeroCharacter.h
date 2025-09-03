@@ -7,10 +7,12 @@
 #include "GameplayTagContainer.h"
 #include "WarriorHeroCharacter.generated.h"
 
+
 class USpringArmComponent;
 class UCameraComponent;
 class UDataAsset_InputConfig;
 class UHeroCombatComponent;
+class UHeroUIComponent;
 struct FInputActionValue;
 
 /**
@@ -27,6 +29,11 @@ public:
 	//~ Begin PawnCombatInterface Interface.
 	virtual UPawnCombatComponent* GetPawnCombatComponent() const override;
 	//~ End PawnCombatInterface Interface
+
+	//~ Begin PawnUIInterface Interface.
+	virtual UPawnUIComponent* GetPawnUIComponent() const override;
+	virtual UHeroUIComponent* GetHeroUIComponent() const override;
+	//~ End PawnUIInterface Interface
 
 protected:
 
@@ -51,6 +58,9 @@ private:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Combat", meta = (AllowPrivateAccess = "true"))
 	UHeroCombatComponent* HeroCombatComponent;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "UI", meta = (AllowPrivateAccess = "true"))
+	UHeroUIComponent* HeroUIComponent;
 
 #pragma endregion
 
