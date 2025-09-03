@@ -76,6 +76,8 @@ DerivedDataCache/*
 #Misc.
 Content/Assets/*
 Content/ThirdPerson/*
+Content/EssentialAnimation/*
+Content/SwordTrailVFX/*
 
 Content/__ExternalActors__/*
 Content/__ExternalObjects__/*

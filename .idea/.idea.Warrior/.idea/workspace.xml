@@ -13,8 +13,19 @@
   <component name="ChangeListManager">
     <list default="true" id="7e149dcc-cfbf-4546-bb0a-e13c705d4c0f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Warrior/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Warrior/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/BP_EnemyCharacter_Base.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EnemyCharacter/BP_EnemyCharacter_Base.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/BP_Gruntling_Base.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/BP_Gruntling_Base.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/BP_Gruntling_Guardian.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/BP_Gruntling_Guardian.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/BP_HeroCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/BP_HeroCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Warrior/Private/AbilitySystem/WarriorAttributeSet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Private/AbilitySystem/WarriorAttributeSet.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Warrior/Private/Characters/WarriorBaseCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Private/Characters/WarriorBaseCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Warrior/Private/Characters/WarriorEnemyCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Private/Characters/WarriorEnemyCharacter.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Warrior/Private/Characters/WarriorHeroCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Private/Characters/WarriorHeroCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Warrior/Public/AbilitySystem/WarriorAttributeSet.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Public/AbilitySystem/WarriorAttributeSet.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Warrior/Public/Characters/WarriorBaseCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Public/Characters/WarriorBaseCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Warrior/Public/Characters/WarriorEnemyCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Public/Characters/WarriorEnemyCharacter.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Warrior/Public/Characters/WarriorHeroCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Public/Characters/WarriorHeroCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Warrior.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/Warrior.uproject" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,29 +35,62 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://C:/Program Files/Epic Games/UE_5.5/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/AbilitySystemGlobals.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Epic Games/UE_5.5/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/AbilitySystemTestPawn.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Epic Games/UE_5.5/Engine/Source/Editor/Kismet/Private/BlueprintDetailsCustomization.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Epic Games/UE_5.5/Engine/Source/Programs/Shared/EpicGames.Core/CityHash.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Epic Games/UE_5.5/Engine/Source/Programs/Shared/EpicGames.Perforce.Fixture/setup.sh" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Epic Games/UE_5.5/Engine/Source/Programs/Shared/EpicGames.Perforce/NativePerforceConnection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://S:/SSO/Warrior/Source/Warrior/Private/Characters/WarriorHeroCharacter.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://S:/SSO/Warrior/Source/Warrior/Private/Characters/WarriorHeroCharacter.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://S:/SSO/Warrior/Source/Warrior/Private/Characters/WarriorHeroCharacter.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://S:/SSO/Warrior/Source/Warrior/Private/Characters/WarriorHeroCharacter.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://S:/SSO/Warrior/Source/Warrior/Private/Characters/WarriorHeroCharacter.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://S:/SSO/Warrior/Source/Warrior/Private/Characters/WarriorHeroCharacter.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://S:/SSO/Warrior/Source/Warrior/Private/Characters/WarriorHeroCharacter.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://S:/SSO/Warrior/Source/Warrior/Private/Characters/WarriorHeroCharacter.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://S:/SSO/Warrior/Source/Warrior/Private/Characters/WarriorHeroCharacter.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://S:/SSO/Warrior/Source/Warrior/Private/Characters/WarriorHeroCharacter.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://S:/SSO/Warrior/Source/Warrior/Private/Characters/WarriorHeroCharacter.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://S:/SSO/Warrior/Source/Warrior/Private/Characters/WarriorHeroCharacter.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://S:/SSO/Warrior/Source/Warrior/Private/Characters/WarriorHeroCharacter.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://S:/SSO/Warrior/Source/Warrior/Private/Characters/WarriorHeroCharacter.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://S:/SSO/Warrior/Source/Warrior/Private/Characters/WarriorHeroCharacter.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://S:/SSO/Warrior/Source/Warrior/Private/Characters/WarriorHeroCharacter.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://S:/SSO/Warrior/Source/Warrior/Private/Characters/WarriorHeroCharacter.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://S:/SSO/Warrior/Source/Warrior/Public/Characters/WarriorHeroCharacter.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://S:/SSO/Warrior/Source/Warrior/Public/Characters/WarriorHeroCharacter.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://S:/SSO/Warrior/Source/Warrior/Public/Characters/WarriorHeroCharacter.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://S:/SSO/Warrior/Source/Warrior/Public/Characters/WarriorHeroCharacter.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://S:/SSO/Warrior/Source/Warrior/Public/Characters/WarriorHeroCharacter.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://S:/SSO/Warrior/Source/Warrior/Public/Characters/WarriorHeroCharacter.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://S:/SSO/Warrior/Source/Warrior/Public/Characters/WarriorHeroCharacter.h" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2xVa7Ck7pJoR1cN5rIxf8k72kpG" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "UnrealLinkOptionsId",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C++ Project.Warrior.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;devBranch&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;UnrealLinkOptionsId&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="C++ Project.Warrior">
     <configuration name="UE5" type="CppProject" factoryName="C++ Project">
       <configuration_1>
@@ -482,7 +526,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1748025524952</updated>
-      <workItem from="1748025527358" duration="3389000" />
+      <workItem from="1748025527358" duration="4005000" />
+      <workItem from="1748455147446" duration="12662000" />
+      <workItem from="1748961482660" duration="7413000" />
+      <workItem from="1749045059546" duration="3067000" />
+      <workItem from="1749064844746" duration="8410000" />
+      <workItem from="1749153101593" duration="6510000" />
+      <workItem from="1749231990646" duration="4675000" />
+      <workItem from="1749259087101" duration="2047000" />
+      <workItem from="1749339607354" duration="1452000" />
+      <workItem from="1749495822653" duration="2290000" />
+      <workItem from="1750185122152" duration="9336000" />
+      <workItem from="1750272665754" duration="5029000" />
+      <workItem from="1750337488567" duration="4559000" />
+      <workItem from="1750775082923" duration="3794000" />
+      <workItem from="1753894341324" duration="8583000" />
+      <workItem from="1755093276975" duration="1467000" />
+      <workItem from="1756225197530" duration="6282000" />
+      <workItem from="1756308329138" duration="5965000" />
     </task>
     <servers />
   </component>
@@ -490,8 +551,31 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="dotnet:OpenTelemetry.Api" />
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
+    <option featureType="dependencySupport" implementationName="dotnet:OpenTelemetry" />
+    <option featureType="dependencySupport" implementationName="dotnet:Microsoft.ApplicationInsights" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Source/Warrior/Public/AbilitySystem/WarriorAbilitySystemComponent.h</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Source/Warrior/Private/Characters/WarriorEnemyCharacter.cpp</url>
+          <line>3</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
