@@ -14,18 +14,11 @@
     <list default="true" id="7e149dcc-cfbf-4546-bb0a-e13c705d4c0f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Warrior/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Warrior/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/BP_EnemyCharacter_Base.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EnemyCharacter/BP_EnemyCharacter_Base.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/BP_Gruntling_Base.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/BP_Gruntling_Base.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/BP_Gruntling_Guardian.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/BP_Gruntling_Guardian.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/BP_HeroCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/BP_HeroCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Warrior/Private/AbilitySystem/WarriorAttributeSet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Private/AbilitySystem/WarriorAttributeSet.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Warrior/Private/Characters/WarriorBaseCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Private/Characters/WarriorBaseCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/DA_Hero.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/DA_Hero.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/GameplayEffect/GE_Hero_Static.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/GameplayEffect/GE_Hero_Static.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Widgets/WBP_Test.uasset" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Warrior/Private/Characters/WarriorEnemyCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Private/Characters/WarriorEnemyCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Warrior/Private/Characters/WarriorHeroCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Private/Characters/WarriorHeroCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Warrior/Public/AbilitySystem/WarriorAttributeSet.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Public/AbilitySystem/WarriorAttributeSet.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Warrior/Public/Characters/WarriorBaseCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Public/Characters/WarriorBaseCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Warrior/Public/Characters/WarriorEnemyCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Public/Characters/WarriorEnemyCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Warrior/Public/Characters/WarriorHeroCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Public/Characters/WarriorHeroCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Warrior.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/Warrior.uproject" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -544,6 +537,8 @@
       <workItem from="1755093276975" duration="1467000" />
       <workItem from="1756225197530" duration="6282000" />
       <workItem from="1756308329138" duration="5965000" />
+      <workItem from="1757983805086" duration="2085000" />
+      <workItem from="1758132274750" duration="836000" />
     </task>
     <servers />
   </component>
