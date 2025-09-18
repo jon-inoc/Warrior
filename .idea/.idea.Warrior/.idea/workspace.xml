@@ -13,12 +13,17 @@
   <component name="ChangeListManager">
     <list default="true" id="7e149dcc-cfbf-4546-bb0a-e13c705d4c0f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Warrior/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Warrior/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/BP_EnemyCharacter_Base.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EnemyCharacter/BP_EnemyCharacter_Base.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/BP_Gruntling_Guardian.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EnemyCharacter/Gruntling/BP_Gruntling_Guardian.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/DA_Hero.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/DA_Hero.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/GameplayEffect/GE_Hero_Static.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/GameplayEffect/GE_Hero_Static.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Widgets/WBP_Test.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Warrior/Private/Characters/WarriorEnemyCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Private/Characters/WarriorEnemyCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/GameplayAbility/Equipping/GA_Hero_EquipSword.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/GameplayAbility/Equipping/GA_Hero_EquipSword.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/GameplayAbility/Equipping/GA_Hero_UnequipSword.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/GameplayAbility/Equipping/GA_Hero_UnequipSword.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/GameplayAbility/HitPause/CameraShake_HeroMelee.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/GameplayAbility/HitPause/CameraShake_HeroMelee.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/GameplayAbility/LightAttack/GA_Hero_LightAttackMaster.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/GameplayAbility/LightAttack/GA_Hero_LightAttackMaster.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/HeroWeapon/BP_HeroSword.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/HeroWeapon/BP_HeroSword.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Widgets/EnemyWidgets/WBP_DefaultEnemyHealthBar.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Widgets/EnemyWidgets/WBP_DefaultEnemyHealthBar.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Widgets/HeroWidgets/WBP_HeroOverlay.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Widgets/HeroWidgets/WBP_HeroOverlay.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Widgets/TemplateWidgets/TPWBP_IconSlot.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Widgets/TemplateWidgets/TPWBP_IconSlot.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Warrior/Public/Components/UI/HeroUIComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Public/Components/UI/HeroUIComponent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Warrior/Public/WarriorTypes/WarriorStructTypes.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Warrior/Public/WarriorTypes/WarriorStructTypes.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -538,7 +543,7 @@
       <workItem from="1756225197530" duration="6282000" />
       <workItem from="1756308329138" duration="5965000" />
       <workItem from="1757983805086" duration="2085000" />
-      <workItem from="1758132274750" duration="836000" />
+      <workItem from="1758132274750" duration="2534000" />
     </task>
     <servers />
   </component>
